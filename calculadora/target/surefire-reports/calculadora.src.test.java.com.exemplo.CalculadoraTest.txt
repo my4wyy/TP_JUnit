@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: calculadora.src.test.java.com.exemplo.CalculadoraTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in calculadora.src.test.java.com.exemplo.CalculadoraTest
