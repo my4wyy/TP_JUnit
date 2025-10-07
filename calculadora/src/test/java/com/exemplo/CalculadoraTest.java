@@ -22,5 +22,23 @@ class CalculadoraTest {
         Calculadora calc = new Calculadora();
         assertEquals(-5, calc.somar(-2, -3));
     }
+    
+    @Test
+    void multiplicarPositivos() {
+        Calculadora calc = new Calculadora();
+        assertEquals(6, calc.multiplicar(2, 3));
+    }
+
+    @Test
+    void multiplicarPorZero() {
+        Calculadora calc = new Calculadora();
+        assertEquals(0, calc.multiplicar(5, 0));
+    }
+
+    @Test
+    void multiplicarComNegativo() {
+        Calculadora calc = new Calculadora();
+        assertEquals(-10, calc.multiplicar(-2, 5));
+    }
 
 }
